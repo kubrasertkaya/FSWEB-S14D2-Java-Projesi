@@ -32,11 +32,11 @@ public class Carpet {
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
-        builder.append("***********************");
+        builder.append("\n***********************\n");
         builder.append("width:" + width + "\n");
         builder.append("PaintColor:" + color + "\n");
         builder.append("height:" + height + "\n");
-        builder.append("***********************");
+        builder.append("***********************\n");
         return builder.toString();
     }
 }

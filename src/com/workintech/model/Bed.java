@@ -42,7 +42,7 @@ public class Bed {
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
-        builder.append("***********************");
+        builder.append("***********************\n");
         builder.append("style:" + style + "\n");
         builder.append("pillows:" + pillows + "\n");
         builder.append("height:" + height + "\n");

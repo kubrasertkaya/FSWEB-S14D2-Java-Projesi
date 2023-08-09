@@ -32,11 +32,11 @@ public class Lamp {
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
-        builder.append("***********************");
+        builder.append("\n***********************\n");
         builder.append("style:" + style + "\n");
         builder.append("battery:" + battery + "\n");
         builder.append("globRating:" + globRating + "\n");
-        builder.append("***********************");
+        builder.append("***********************\n");
         return builder.toString();
     }
 }
